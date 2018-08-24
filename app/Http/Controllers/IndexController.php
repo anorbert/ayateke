@@ -46,7 +46,7 @@ class IndexController extends Controller
 
   public function blog($post_id){
     $posts=Post::where('id','=',$post_id)->first();
-    $category=DB::table('Posts')->distinct()->get();
+    $category=DB::table('posts')->distinct()->get();
     $commentctr=DB::table('comments')->where('post_id','=',$post_id)->count();
     $comment=DB::table('comments')->where('post_id','=',$post_id)->orderby('created_at','DESC')->get();
 
@@ -144,10 +144,10 @@ class IndexController extends Controller
 
   public function branches(){
     $posts=Post::orderBy('id', 'desc')->get();
-    $category=DB::table('Posts')->distinct()->get();
+    $category=DB::table('posts')->distinct()->get();
         $branche=Branche::orderby('br_name','asc')->get();
     
-    $recent = DB::table('Posts')
+    $recent = DB::table('posts')
                 ->orderBy('id', 'desc')
                 ->limit(4)
                 ->get();
@@ -158,9 +158,9 @@ class IndexController extends Controller
 
       public function team(){
     $posts=Post::orderBy('id', 'desc')->get();
-    $category=DB::table('Posts')->distinct()->get();
+    $category=DB::table('posts')->distinct()->get();
     
-    $recent = DB::table('Posts')
+    $recent = DB::table('posts')
                 ->orderBy('id', 'desc')
                 ->limit(4)
                 ->get();
@@ -184,9 +184,9 @@ return view('result',compact('posts','blogs','recent','count'));
 
   public function services(){
     $posts=Post::orderBy('id', 'desc')->get();
-    $category=DB::table('Posts')->distinct()->get();
+    $category=DB::table('posts')->distinct()->get();
     
-    $recent = DB::table('Posts')
+    $recent = DB::table('posts')
                 ->orderBy('id', 'desc')
                 ->limit(4)
                 ->get();
@@ -242,7 +242,7 @@ return view('result',compact('posts','blogs','recent','count'));
      $it=Anouncements::where('id','!=',$id)                        
                         ->orderby('id','desc')
                         ->get();
-$recent = DB::table('Posts')
+$recent = DB::table('posts')
                 ->orderBy('id', 'desc')
                 ->limit(4)
                 ->get();
