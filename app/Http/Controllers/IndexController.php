@@ -22,7 +22,7 @@ class IndexController extends Controller
    public function index(){
    	$posts=Post::orderBy('id', 'desc')->paginate(4);
         $blogs=Post::paginate(4);
-		$category=DB::table('Posts')->distinct()->get();
+		$category=DB::table('posts')->distinct()->get();
 		$archive=DB::table('posts')->orderby('created_at','DESC')->limit(6)->get();
         $anouncement=DB::table('anouncements')
                     ->orderby('created_at','DESC')
@@ -31,7 +31,7 @@ class IndexController extends Controller
         $notif=Anouncements::whereBetween('deadline' , [Carbon\Carbon::now(), Carbon\Carbon::now()->addDays(2)])
                               ->get();
 		
-		$recent = DB::table('Posts')
+		$recent = DB::table('posts')
                 ->orderBy('id', 'desc')
                 ->limit(4)
                 ->get();
