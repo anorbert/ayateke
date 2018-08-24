@@ -140,7 +140,7 @@
                                                 <div class="single-blog-post">
                                                     <!-- Post Thumbnail -->
                                                     <div class="post-thumbnail">
-                                                        <img src="{{asset('images/chan.png')}}" style="height: 220px" alt="">
+                                                        <img src="{{asset('images/chan.PNG')}}" style="height: 220px" alt="">
                                                         <!-- Catagory -->
                                                         
                                                     </div>
@@ -194,7 +194,7 @@
                     <div class="single-blog-post post-style-2 d-flex align-items-center wow fadeInUpBig" data-wow-delay="0.2s">
                     <!-- Post Thumbnail -->
                     <div class="post-thumbnail">
-                    <img src="{{asset('images/scola.png')}}" alt="">
+                    <img src="{{asset('images/scola.PNG')}}" alt="">
                     </div>
                     <!-- Post Content -->
                     <div class="post-content">
@@ -241,7 +241,7 @@
                     <div class="single-blog-post post-style-2 d-flex align-items-center wow fadeInUpBig" data-wow-delay="0.2s">
                     <!-- Post Thumbnail -->
                     <div class="post-thumbnail">
-                    <img src="{{asset('images/scola.png')}}" alt="">
+                    <img src="{{asset('images/scola.PNG')}}" alt="">
                     </div>
                     <!-- Post Content -->
                     <div class="post-content">
