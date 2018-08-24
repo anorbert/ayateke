@@ -32,7 +32,7 @@
     background-image: url("{{ asset('images/water/20180104_133158.jpg') }}"); 
 }
         #im2{
-            background-image: url(" {{asset('images/water/byose.jpg') }}");
+            background-image: url(" {{asset('images/water/byose.JPG') }}");
             background-color: #eee;
         }
         .sidebar-widget-area{
