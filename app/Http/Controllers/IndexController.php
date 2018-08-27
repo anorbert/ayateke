@@ -20,17 +20,18 @@ use Carbon;
 class IndexController extends Controller
 {
    public function index(){
+            $now = \Carbon\Carbon::now();
    	$posts=Post::orderBy('id', 'desc')->paginate(4);
         $blogs=Post::paginate(4);
 		$category=DB::table('posts')->distinct()->get();
 		$archive=DB::table('posts')->orderby('created_at','DESC')->limit(6)->get();
         $anouncement=DB::table('anouncements')
                     ->orderby('created_at','DESC')
-                    ->whereBetween('deadline' , [Carbon\Carbon::now(), Carbon\Carbon::now()->addDays(2)])
+                    ->where('deadline', '<', $now)
                     ->get();
 
-        $now = \Carbon\Carbon::now();
         $notif=Anouncements::where('deadline', '<', $now)
+                              ->where('type', '=', 'public')
                               ->get();
 		
 		$recent = DB::table('posts')
