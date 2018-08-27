@@ -1,5 +1,6 @@
 
 @extends('layouts.master')
+<title>Ayateke Star |Request</title>
    <style type="text/css">
         #im1{
     background-image: url("{{ asset('images/water/redd.jpg') }}"); 
@@ -37,7 +38,9 @@
                                 <h6>Any offers and other tools that will be used to deliver water to you will be charged to the clients</h6>
                                
                             </blockquote>
-                            <h6>if you need more information to how you should get it please contact our <a href="{{url('/contact')}}">support team</a> or use our hotline +250 7 88 56 82 78</h6>
+                            <h6>if you need more information to how you should get connected to ayatekestar water supplie systems please contact our <a href="{{url('/contact')}}">support team</a> or use our hotline +250 7 88 56 82 78</h6>
+
+                            You should also vist our nearest branches <small> <a href="/branches">click here to view our branches</a></small>
                             <!-- Post Tags -->
                             <ul class="post-tags">
                                 <li><a href="{{url('/home')}}">Ayateke Star</a></li>
@@ -99,7 +102,7 @@
               </select>
             </div>
              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                         <label>Your Address</label>
+                         <label>Physical Address</label>
                       </div>
                       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 
@@ -132,7 +135,7 @@
                         <input type="number" name="nid" required="" />
                       </div>
                       <div class="col-lg-12 col-md-12 col-sm-12 comment-form-comment">
-                        <p>Bio</p>
+                        <p>Information</p>
                         <textarea id="message-box" name="content" cols="50" rows="10" required="" placeholder="Tell us more about you!"></textarea>
                         <input type="submit" value="Send Request" class="btn btn-success" />
                       </div>

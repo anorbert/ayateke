@@ -1,5 +1,6 @@
 @extends('layouts.master')
 
+<title>Ayateke Star |Team</title>
 @section('content')
   
  

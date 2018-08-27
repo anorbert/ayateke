@@ -1,5 +1,6 @@
 
 @extends('layouts.master')
+<title>Ayateke Star | Branches</title>
    <style type="text/css">
         #im1{
     background-image: url("{{ asset('images/water/redd.jpg') }}"); 

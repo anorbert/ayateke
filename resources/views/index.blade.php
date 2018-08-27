@@ -1,4 +1,5 @@
 @extends('layouts.master')
+<title>Ayateke Star |Agreements</title>
 <style type="text/css">
     .sidebar-widget-area{
         border: 2px solid;

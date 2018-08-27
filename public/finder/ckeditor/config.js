@@ -4,10 +4,10 @@
  */
 
 CKEDITOR.editorConfig = function( config ) {
-	config.filebrowserBrowseUrl = '/ayatekestar/ayateke/public/finder/kcfinder/browse.php?type=files';
-	config.filebrowserImageBrowseUrl = '/ayatekestar/ayateke/public/finder/kcfinder/browse.php?type=images';
-	config.filebrowserFlashBrowseUrl = '/ayatekestar/ayateke/public/finder/kcfinder/browse.php?type=flash';
-	config.filebrowserUploadUrl = '/ayatekestar/ayateke/public/finder/kcfinder/upload.php?type=files';
-	config.filebrowserImageUploadUrl = '/ayatekestar/ayateke/public/finder/kcfinder/upload.php?type=images';
-	config.filebrowserFlashUploadUrl = '/ayatekestar/ayateke/public/finder/kcfinder/upload.php?type=flash';
+	config.filebrowserBrowseUrl = 'finder/kcfinder/browse.php?type=files';
+	config.filebrowserImageBrowseUrl = 'finder/kcfinder/browse.php?type=images';
+	config.filebrowserFlashBrowseUrl = 'finder/kcfinder/browse.php?type=flash';
+	config.filebrowserUploadUrl = 'finder/kcfinder/upload.php?type=files';
+	config.filebrowserImageUploadUrl = 'public/finder/kcfinder/upload.php?type=images';
+	config.filebrowserFlashUploadUrl = 'finder/kcfinder/upload.php?type=flash';
 };

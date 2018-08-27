@@ -1,4 +1,5 @@
 @extends('layouts.master')
+<title>Ayateke Star |Tarifs</title>
 
 @section('content')
     <!-- ***** Header Area End ***** -->

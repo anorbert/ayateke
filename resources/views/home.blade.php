@@ -1,4 +1,5 @@
 @extends('layouts.app')
+<title>Ayateke Star |Home</title>
 
 @section('content')
   <!-- partial -->

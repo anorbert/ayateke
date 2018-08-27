@@ -26,7 +26,7 @@
   <!-- inject:css -->
   <link rel="stylesheet" href="css/style.css">
   <!-- endinject -->
-  <link rel="shortcut icon" href="images/favicon.png" />
+  <link rel="shortcut icon" href="images/ayat.png" />
 
 
     <!-- Scripts -->
@@ -78,7 +78,7 @@
           <h3 style="color: black;">Ayateke Star <small>.Co.ltd</small></h3>
         </a>
         <a class="navbar-brand brand-logo-mini" data-toggle="collapse" data-target="#sidebar" aria-controls="worldNav" aria-expanded="false" aria-label="Toggle navigation">
-          <img src="images/logo-mini.svg" alt="logo" />
+          <img src="images/ayat.png" alt="logo" />
         </a>
       </div>
      
@@ -257,7 +257,7 @@
            <li class="nav-item">
             <a class="nav-link" href="{{url('/showbranche')}}">
               <i class="menu-icon mdi mdi-television"></i>
-              <span>Add Branche</span>
+              <span>Add Branch</span>
             </a>
           </li>
 

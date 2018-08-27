@@ -1,4 +1,5 @@
 @extends('layouts.master')
+<title>Ayateke Star |Notifications</title>
 <style type="text/css">
     #container{
         background-color: #ecebeb66;

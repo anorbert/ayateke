@@ -1,4 +1,5 @@
 @extends('layouts.master')
+<title>Ayateke Star | Leaks</title>
 <style type="text/css">
   #leak{
     height: 400px;
@@ -64,23 +65,7 @@
   </tbody>
 </table>
                             </blockquote>  
-              </blockquote> 
-              <span>category</span>
-
-              <select style="width: 200px" class="product" id="prod_cat">
-                
-                <option value="0" selected="true">select branch</option>
-                @foreach($branchs as $branch)
-                <option value="{{$branch->id}}">{{$branch->branch}}</option>
-                @endforeach
-              </select>
-              <span>sub cat</span>
-
-              <select style="width: 200px" class="productname">
-               <option value="0" selected="true">select sub</option>
-                
-              </select>
-              
+              </blockquote>               
 
                         </div>
                     </div>
