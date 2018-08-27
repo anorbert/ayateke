@@ -28,9 +28,9 @@ class IndexController extends Controller
                     ->orderby('created_at','DESC')
                     ->whereBetween('deadline' , [Carbon\Carbon::now(), Carbon\Carbon::now()->addDays(2)])
                     ->get();
-$today = Carbon::today();
 
-        $notif=Anouncements::whereBetween('deadline'< $today)
+
+        $notif=Anouncements::whereBetween('deadline' < Carbon\Carbon::today())
                               ->get();
 		
 		$recent = DB::table('posts')
