@@ -30,7 +30,7 @@ class IndexController extends Controller
                     ->get();
 
         $now = \Carbon\Carbon::now();
-        $notif=Anouncements::where('deadline' < $now)
+        $notif=Anouncements::where('deadline', '<', $now)
                               ->get();
 		
 		$recent = DB::table('posts')
