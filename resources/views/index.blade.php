@@ -1,5 +1,5 @@
 @extends('layouts.master')
-<title>Wellcome To Ayateke Star</title>
+<title>Ayateke Star</title>
 <style type="text/css">
     .sidebar-widget-area{
         border: 2px solid;
@@ -124,7 +124,7 @@
 
             <h5><strong>Eng.</strong>Cyprien Sebikwekwe</h5>
             </a>
-            <p>Director Manager</p>
+            <p>Managing Director</p>
             <!-- Post Meta -->
             <div class="post-meta">
             <div class="social-area d-flex justify-content-between">

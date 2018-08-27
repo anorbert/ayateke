@@ -1,4 +1,5 @@
 @extends('layouts.master')
+<title>Ayateke Star |Information</title>
 
 @section('content')
     <!-- ***** Header Area End ***** -->
