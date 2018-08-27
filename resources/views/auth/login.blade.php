@@ -74,7 +74,7 @@
                 <a href="#">Terms</a>
               </li>
             </ul>
-            <p class="footer-text text-center">copyright © 2018 iwawetechnology ltd. All rights reserved.</p>
+            <p class="footer-text text-center">copyright © 2018 Ayatekestar Co.Ltd. All rights reserved.</p>
           </div>
         </div>
       </div>

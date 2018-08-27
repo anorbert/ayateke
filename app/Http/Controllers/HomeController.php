@@ -44,6 +44,7 @@ class HomeController extends Controller
         $chatctr=Messages::max('id');
         $quickchat=Messages::where('id','=',$chatctr)->get();
         $user=user::all();
+        $Subscribers=Subscribers::count();
         
         if (Auth::user()->role!='User') {
           
