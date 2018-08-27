@@ -65,7 +65,7 @@ $appr=Requests::where('action','=','approved')->count();
         }
 
 
-        return view('home',compact('Messagectr','mess','branche','req','messs','appr','reques','employee','user','ann','notif'));
+        return view('home',compact('Messagectr','mess','branche','req','messs','appr','reques','employee','user','ann','notif','Subscribers'));
     }
     //dealing with branches
 
