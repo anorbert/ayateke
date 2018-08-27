@@ -15,6 +15,7 @@ use App\user;
 use App\Wss;
 use App\Appointment;
 use App\Payment;
+Use App\Subscriber;
 
 class HomeController extends Controller
 {
@@ -44,7 +45,7 @@ class HomeController extends Controller
         $chatctr=Messages::max('id');
         $quickchat=Messages::where('id','=',$chatctr)->get();
         $user=user::all();
-        $Subscribers=Subscribers::count();
+        $Subscribers=Subscriber::count();
         
         if (Auth::user()->role!='User') {
           
