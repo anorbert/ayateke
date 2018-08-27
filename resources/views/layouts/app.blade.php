@@ -190,7 +190,7 @@
                     <i class="mdi mdi-account-outline mr-0 text-gray"></i>
                   </div>
                 </a>
-                <a href="{{url('/umusanzu')}}">
+                <a href="{{url('#')}}">
                   <div class="py-3 px-4 d-flex align-items-center justify-content-center">
                     <i class="mdi mdi-alarm-check mr-0 text-gray"></i>
                   </div>

@@ -71,7 +71,7 @@
                       <i class="mdi mdi-poll-box text-success icon-lg"></i>
                     </div>
                     <div class="float-right">
-                      <p class="mb-0 text-right">Site Views</p>
+                      <p class="mb-0 text-right">Subscribers</p>
                       <div class="fluid-container">
                         <h3 class="font-weight-medium text-right mb-0">{{$Subscribers}}</h3>
                       </div>

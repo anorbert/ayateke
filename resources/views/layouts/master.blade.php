@@ -190,7 +190,7 @@
                         <form action="{{url('/subscribe')}}" method="post">
                             {{ csrf_field() }}
                             <input type="email" name="email" id="email" placeholder="Enter your mail">
-                            <button type="button"><i class="fa fa-arrow-right"></i></button>
+                            <button type="submit"><i class="fa fa-arrow-right"></i></button>
                         </form>
                         <p>Get Our latest Updates</p>
                     </div>
