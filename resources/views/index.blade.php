@@ -85,85 +85,85 @@
                             @endif
              
 
-                    <div class="post-content-area mb-50">
-                        <!-- Catagory Area -->
-                        <div class="world-catagory-area">
-                            <ul class="nav nav-tabs" id="myTab" role="tablist">
-                                <li class="title">Connect With Team</li>
+            <div class="post-content-area mb-50">
+            <!-- Catagory Area -->
+            <div class="world-catagory-area">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="title">Connect With Team</li>
 
-                                <li class="nav-item">
-                                    <a class="nav-link active" id="tab1" data-toggle="tab" href="#world-tab-1" role="tab" aria-controls="world-tab-1" aria-selected="true">All</a>
-                                </li>
+            <li class="nav-item">
+            <a class="nav-link active" id="tab1" data-toggle="tab" href="#world-tab-1" role="tab" aria-controls="world-tab-1" aria-selected="true">All</a>
+            </li>
 
-                                <li class="nav-item">
-                                    <a class="nav-link" id="tab2" data-toggle="tab" href="#world-tab-2" role="tab" aria-controls="world-tab-2" aria-selected="false">Branch</a>
-                                </li>
+            <li class="nav-item">
+            <a class="nav-link" id="tab2" data-toggle="tab" href="#world-tab-2" role="tab" aria-controls="world-tab-2" aria-selected="false">Branch</a>
+            </li>
 
-                               
-                            </ul>
 
-                            <div class="tab-content" id="myTabContent">
+            </ul>
 
-                                <div class="tab-pane fade show active" id="world-tab-1" role="tabpanel" aria-labelledby="tab1">
-                                    <div class="row">
-                                        <div class="col-12 col-md-6">
-                                            <div class="world-catagory-slider owl-carousel wow fadeInUpBig" data-wow-delay="0.1s">
+            <div class="tab-content" id="myTabContent">
 
-                                                <!-- Single Blog Post -->
-                                                <div class="single-blog-post">
-                                                    <!-- Post Thumbnail -->
-                                                    <div class="post-thumbnail">
-                                                        <img src="{{asset('images/eng.jpg')}}" style="height: 220px"  alt="">
-                                                        <!-- Catagory -->
-                                                       
-                                                    </div>
-                                                    <!-- Post Content -->
-                                                    <div class="post-content">
-                                                        <a href="#" class="headline">
+            <div class="tab-pane fade show active" id="world-tab-1" role="tabpanel" aria-labelledby="tab1">
+            <div class="row">
+            <div class="col-12 col-md-6">
+            <div class="world-catagory-slider owl-carousel wow fadeInUpBig" data-wow-delay="0.1s">
 
-                                                            <h5><strong>Eng.</strong>Cyprien Sebikwekwe</h5>
-                                                        </a>
-                                                        <p>Director Manager</p>
-                                                        <!-- Post Meta -->
-                                                        <div class="post-meta">
-                                                            <div class="social-area d-flex justify-content-between">
-                                    <a href="https://www.facebook.com/sebikwekwe.cyprien"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-instagram"></i></a>
-                                    <a href="mailto:sebi250@yahoo.fr"><i class="fa fa-yahoo"></i></a>
-                                </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
+            <!-- Single Blog Post -->
+            <div class="single-blog-post">
+            <!-- Post Thumbnail -->
+            <div class="post-thumbnail">
+            <img src="{{asset('images/eng.jpg')}}" style="height: 220px"  alt="">
+            <!-- Catagory -->
 
-                                          <!-- Single Blog Post -->
-                                                <div class="single-blog-post">
-                                                    <!-- Post Thumbnail -->
-                                                    <div class="post-thumbnail">
-                                                        <img src="{{asset('images/chan.PNG')}}" style="height: 220px" alt="">
-                                                        <!-- Catagory -->
-                                                        
-                                                    </div>
-                                                    <!-- Post Content -->
-                                                    <div class="post-content">
-                                                        <a href="#" class="headline">
+            </div>
+            <!-- Post Content -->
+            <div class="post-content">
+            <a href="#" class="headline">
 
-                                                            <h5>N.Habimana M.Chantal</h5>
-                                                        </a>
-                                                        <p>Director Of Finance</p>
-                                                        <!-- Post Meta -->
-                                                        <div class="post-meta">
-                                                            <div class="social-area d-flex justify-content-between">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-instagram"></i></a>
-                                    <a href="#"><i class="fa fa-google"></i></a>
-                                </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+            <h5><strong>Eng.</strong>Cyprien Sebikwekwe</h5>
+            </a>
+            <p>Director Manager</p>
+            <!-- Post Meta -->
+            <div class="post-meta">
+            <div class="social-area d-flex justify-content-between">
+            <a href="https://www.facebook.com/sebikwekwe.cyprien"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="mailto:sebi250@yahoo.fr"><i class="fa fa-yahoo"></i></a>
+            </div>
+            </div>
+            </div>
+            </div>
+
+            <!-- Single Blog Post -->
+            <div class="single-blog-post">
+            <!-- Post Thumbnail -->
+            <div class="post-thumbnail">
+            <img src="{{asset('images/chan.PNG')}}" style="height: 220px" alt="">
+            <!-- Catagory -->
+
+            </div>
+            <!-- Post Content -->
+            <div class="post-content">
+            <a href="#" class="headline">
+
+            <h5>N.Habimana M.Chantal</h5>
+            </a>
+            <p>Director Of Finance</p>
+            <!-- Post Meta -->
+            <div class="post-meta">
+            <div class="social-area d-flex justify-content-between">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-google"></i></a>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
 
                     <div class="col-12 col-md-6">
                     <!-- Single Blog Post -->

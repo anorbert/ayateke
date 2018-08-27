@@ -16,8 +16,8 @@ Route::get('/', 'IndexController@index');
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/contact', 'IndexController@contact');
-Route::post('/sendmessage', 'Messagecontroller@sendmessage');
-Route::get('/chat', 'Messagecontroller@chat');
+Route::post('/sendmessage', 'MessageController@sendmessage');
+Route::get('/chat', 'MessageController@chat');
 
 
 Route::post('/addPost', 'PostController@addPost');
