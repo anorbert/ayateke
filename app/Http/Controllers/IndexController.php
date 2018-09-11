@@ -30,8 +30,8 @@ class IndexController extends Controller
                     ->where('deadline', '<', $now)
                     ->get();
 
-        $notif=Anouncements::where('deadline', '<', $now)
-                              ->where('type', '=', 'public')
+        $notif=Anouncements:://where('deadline', '<', $now)
+                              where('type', '=', 'public')
                               ->get();
 		
 		$recent = DB::table('posts')
